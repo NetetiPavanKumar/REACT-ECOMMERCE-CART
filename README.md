@@ -68,9 +68,7 @@ npm start
 
 The backend runs at: http://localhost:3000
 
-
 ### 3. Start the frontend
-
 
 ```bash
 cd ../FRONTEND
