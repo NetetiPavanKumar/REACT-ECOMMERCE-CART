@@ -2,13 +2,13 @@
 
 ## 📌 Overview
 
-This project is a **frontend e-commerce cart and checkout system** built using **React.js** with a Node.js + Express backend (for API support).
+This project is a **frontend e-commerce cart and checkout system** built using **React.js** with a **Node.js + Express backend connected to an SQL database**. 
 
-The primary goal of this project is to **practice and strengthen React skills**, including component-based architecture, state management with Hooks, routing, and API integration — while connecting to a backend for dynamic data.
+The primary goal of this project is to **practice and strengthen React skills**, including component-based architecture, state management with Hooks, routing, and API integration — while connecting to a backend for real data persistence instead of relying on localStorage.
 
 > ⚠️ Note:  
 > The **frontend is entirely my work**.  
-> The **backend code is third-party** and is included only to power APIs for demonstration purposes.
+> The backend is a **full-stack Node.js + Express + SQL implementation**, used to demonstrate dynamic API integration.
 
 ---
 
@@ -21,7 +21,6 @@ The primary goal of this project is to **practice and strengthen React skills**,
 - Select delivery options with dynamic shipping calculation
 - Checkout page with order summary and payment summary
 - Place orders and view order history
-- Persistent cart using `localStorage`
 - Fully responsive and interactive UI
 
 ---
@@ -29,13 +28,12 @@ The primary goal of this project is to **practice and strengthen React skills**,
 ## 🧠 What I Learned
 
 - Component-based architecture in React.js
-- React Hooks: `useState`, `useEffect`
+- React Hooks: `useState`, `useEffect`, `useRef`, `useNavigate`
 - Managing complex application state and dynamic rendering
 - Integrating frontend with REST APIs using Axios
 - Client-side routing with React Router
-- Handling user events, forms, and selection inputs
+- Handling user events and selection inputs
 - Writing modular, reusable, and maintainable React components
-- Structuring a React project for clarity and scalability
 
 ---
 
@@ -46,7 +44,7 @@ REACT-ECOMMERCE-CART/
 │
 ├── FRONTEND/          ← React frontend (my work)
 │
-├── BACKEND/           ← Node.js + Express backend (third-party)
+├── BACKEND/           ← Node.js + Express backend connected to an SQL database (third-party)
 │
 └── README.md          ← Project documentation
 
